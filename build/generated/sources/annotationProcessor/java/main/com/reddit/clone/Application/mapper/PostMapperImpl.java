@@ -5,12 +5,12 @@ import com.reddit.clone.Application.dto.PostResponse;
 import com.reddit.clone.Application.model.Post;
 import com.reddit.clone.Application.model.Subreddit;
 import com.reddit.clone.Application.model.User;
-import javax.annotation.processing.Generated;
+import javax.annotation.Generated;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-09-01T20:02:57+0530",
+    date = "2022-09-01T20:12:26+0530",
     comments = "version: 1.5.2.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-7.5.jar, environment: Java 17.0.4.1 (Amazon.com Inc.)"
 )
 @Component
