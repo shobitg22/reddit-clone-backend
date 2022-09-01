@@ -4,10 +4,7 @@ plugins {
 	id 'io.spring.dependency-management' version '1.0.13.RELEASE'
 	id 'java'
 }
-apply plugin: 'java'
 
-sourceCompatibility = JavaVersion.VERSION_1_7
-targetCompatibility = JavaVersion.VERSION_1_7
 
 group = 'com.reddit.clone'
 version = '0.0.1-SNAPSHOT'
@@ -40,7 +37,7 @@ dependencies {
 	implementation 'org.postgresql:postgresql:42.5.0'
 	runtimeOnly 'io.jsonwebtoken:jjwt-impl:0.10.5'
 	runtimeOnly 'io.jsonwebtoken:jjwt-jackson:0.10.5'
-	implementation 'com.github.marlonlom:timeago:4.0.0'
+	implementation 'com.github.marlonlom:timeago:4.0.3'
 
 	implementation 'org.mapstruct:mapstruct:1.5.2.Final'
 	annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.2.Final'
